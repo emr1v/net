@@ -1,0 +1,19 @@
+body{
+  background: darkred;
+}
+button{
+    
+    
+    background: dimgrey;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size:30px;
+    
+  
+}
+
+.play{
+margin-top: 20pc;
+color:white;
+}

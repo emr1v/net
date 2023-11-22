@@ -1,0 +1,186 @@
+body {
+    font-size: 15pt;
+    background-image: url('background.img') ;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+  
+}
+.first{
+  margin-top: 8pc;
+  
+ color: red;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke: 1px darkred;
+ width: fit-content;
+ font-family: serif;
+ text-shadow: 10px 10px 30px #8A2BE2,5px 5px 100px #8A2BE2;
+ position: relative ;
+ font-size: 60px;
+}
+
+
+.snow{
+  
+
+position: fixed;
+
+bottom: 0px;
+
+right: 0px;
+
+width: 100%;
+
+height: 100%;
+
+opacity: 20%;
+
+z-index: 22222;
+
+pointer-events: none;
+
+background-size: contain;
+
+}
+
+
+
+
+
+
+.first:before{
+  content: attr(data-text); 
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-text-fill-color: red;
+  transition: 0.5s;
+  width: 0;
+  overflow: hidden;
+  
+
+  
+}
+
+.first:hover:before{
+  width: 100%;
+ 
+  
+  
+  
+  
+}
+ul , li , a{
+ text-decoration: none;
+ list-style: none;
+  width: fit-content;
+  justify-content: center;
+  margin: center;
+align-items: center;
+position: center;
+margin-top: 10px;
+color: lightgrey;
+font-style: bold;
+
+
+
+}
+
+ul{
+  margin-top: 1pc;
+  margin-left: -2pc;
+ 
+}
+
+ul li a{
+ background-color: rebeccapurple;
+ padding: 6px 15px;
+
+ border-radius: 20px;
+ display: inline-block;
+ display: flex;
+text-shadow: 10px 10px 30px #D7BDE2,5px 5px 10px #D7BDE2;
+
+
+ 
+}
+
+ul:hover li a{
+  opacity: 0;
+}
+
+
+li{
+  margin-top: 30px;
+}
+ul li a:hover{
+  transform: scale(1.5);
+ transition: 0.3s;
+ background-color: darkred;
+font-family: sans-serif;
+ opacity: 1;
+ 
+ 
+}
+
+.hokok{
+  margin-top: 3pc;
+  
+  
+}
+
+strong{
+  font-size:10px;
+  color: red;
+}
+a{
+  font-size: 23px;
+  font-family: sans-serif;
+}
+
+
+    @media(min-width: 768px) and (max-width: 991.98px ) {
+      ul {
+        margin-top: 6pc;
+        margin-left: -4pc;
+        
+        
+        
+      }
+      a{
+        font-size: 56px;
+        margin-top: 4pc;
+        border-radius: 100px;
+      }
+      
+     .SDKA{
+       margin-top: 30pc;
+      
+       font-size: 180px;
+     }
+     
+     .first{
+       text-shadow: 10px 10px 30px #8A2BE2,5px 5px 70px #8A2BE2;
+       -webkit-text-stroke: 3px darkred;
+       
+       font-size: 100px;
+       
+       
+     }
+     
+     
+     ul li a{
+       border-radius: 50px;
+       width: 100%;
+     }
+     
+     
+     strong{
+       font-size:20px;
+     }
+    }
+    
+    
+
+    
